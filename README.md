@@ -25,7 +25,7 @@ mysql> show tables;
 After tables are created it can be populated through the GUI provided by the zenity.sh script
 
 You can create above database just by importing LibraryManagementSystem.sql into your MySQL.
-To import first login in MySQL and do the following in your terminal
+To import first login into MySQL and do the following in your terminal
 ```
 CREATE DATABASE LibraryManagementSystem;
 ```
@@ -39,9 +39,10 @@ Remember to create users so that then can login into the application
 
 ## Creating the tables and Installing the Zenity script on your Debian system 
 ###### Creating the LibraryManagementSystem database and its tables
-Login to mysql in the terminal using 
-`mysql -uroot -p`
-enter the password
+
+**Login to mysql in the terminal using**
+
+`mysql -uroot -p` a promt will ask for password enter the password to login.
 
 _Database_
 `CREATE DATABASE LibraryManagementSystem;`
