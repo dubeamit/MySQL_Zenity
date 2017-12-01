@@ -64,8 +64,8 @@ CREATE TABLE users (
   
   **_Since database is created now to make the zenity script work_**
   
-  1. open the terminal and navigate to directory where you download the Zenity.sh file 
-  example if your downloaded files are in downloads directory then type this in your terminal
+  1. open the terminal and navigate to directory where you downloaded the Zenity.sh file. 
+  For example if your downloaded files are in downloads directory then type this in your terminal
   `cd Downloads`
   2. type `chmod 775 Zenity.sh` to change the permission on the file for different users on the system.
   3. type `./Zenity.sh` to execute the script
