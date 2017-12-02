@@ -35,8 +35,6 @@ mysql -u username -p LibraryManagementSystem < [LibraryManagementSystem].sql
 ```
 _replace username with your username_
 
-Remember to create users so that then can login into the application
-
 ## Creating the tables and Installing the Zenity script on your Debian system 
 ###### Creating the LibraryManagementSystem database and its tables
 
@@ -58,9 +56,11 @@ CREATE TABLE users (
   UNIQUE KEY username (username)
   ```
   
+  Remember to create users in the users_table so that you can login through the Zenity.sh script
+
   Similarly create other database/tables if you need other database such as educationSystem, bankingSystem, etc.
   
-  A good tutorial on basic mysql can be found [here](https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial).
+  A good tutorial on basics of mysql can be found [here](https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial).
   
   **_Since database is created now to make the zenity script work_**
   
